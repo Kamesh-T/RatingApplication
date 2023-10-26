@@ -1,0 +1,78 @@
+<html>
+    {% extends 'RatingApp/base.html' %}
+    {% block content %}
+        <div id="result">
+            <center><h1>Rating Results</h1></center>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>project1</th>
+                <th>project2</th>
+                <th>project3</th>
+                <th>project4</th>
+                <th>project5</th>
+                <th>project6</th>
+                <th>project7</th>
+                <th>project8</th>
+                <th>project9</th>
+                <th>project10</th>
+                <th>project11</th>
+                <th>project12</th>
+                <th>project13</th>
+                <th>project14</th>
+                <th>project15</th>
+                <th>project16</th>
+                <th>project17</th>
+                <th>project18</th>
+                <th>project19</th>
+                <th>project20</th>
+                <th>project21</th>
+                <!-- <th>project22</th>
+                <th>project23</th>
+                <th>project24</th>
+                <th>project25</th>
+                <th>project26</th>
+                <th>project27</th>
+                <th>project28</th>
+                <th>project29</th>
+                <th>project30</th> -->
+            </thead>
+                {% for i in data %}
+                <tr>
+                    <td>{{i.Name}}</td>
+                    <td>{{i.project1}}</td>
+                    <td>{{i.project2}}</td>
+                    <td>{{i.project3}}</td>
+                    <td>{{i.project4}}</td>
+                    <td>{{i.project5}}</td>
+                    <td>{{i.project6}}</td>
+                    <td>{{i.project7}}</td>
+                    <td>{{i.project8}}</td>
+                    <td>{{i.project9}}</td>
+                    <td>{{i.project10}}</td>
+                    <td>{{i.project11}}</td>
+                    <td>{{i.project12}}</td>
+                    <td>{{i.project13}}</td>
+                    <td>{{i.project14}}</td>
+                    <td>{{i.project15}}</td>
+                    <td>{{i.project16}}</td>
+                    <td>{{i.project17}}</td>
+                    <td>{{i.project18}}</td>
+                    <td>{{i.project19}}</td>
+                    <td>{{i.project20}}</td>
+                    <td>{{i.project21}}</td>
+                    <!-- <td>{{i.project22}}</td>
+                    <td>{{i.project23}}</td>
+                    <td>{{i.project24}}</td>
+                    <td>{{i.project25}}</td>
+                    <td>{{i.project26}}</td>
+                    <td>{{i.project27}}</td>
+                    <td>{{i.project28}}</td>
+                    <td>{{i.project29}}</td>
+                    <td>{{i.project30}}</td> -->
+                </tr>
+                {% endfor %}            
+        </table>
+        </div>
+    {% endblock %}
+</html>

@@ -1,0 +1,16 @@
+<html>
+    {% load static %}
+    <head>
+        <title>Rating-page</title>
+        <link rel="stylesheet" href="{% static 'css/style.css'%}">
+        <!-- <script src="{% static 'js/script.js' %}"></script> -->
+        <!-- <link rel="shortcut icon" href="favicon.ico" > -->
+        <link rel="shortcut icon " href="{% static 'img/icon.png' %}" type="image/png">
+    </head>
+    <body id="bg" style="background-image: url('{% static 'img/bgimg.jpg'%}') ">
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
+
+

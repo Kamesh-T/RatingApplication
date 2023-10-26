@@ -1,0 +1,65 @@
+#bg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+button{ 
+    padding: auto;
+    background-color: lightgreen;
+    border-radius: 5%;
+} 
+ button:hover{
+    background-color: white;
+    border-color: green;
+} 
+
+#start{
+    margin: 15%;
+    background-color: lightblue;
+    padding: 5%;
+    border-radius: 5%; 
+}
+#success{
+    margin:15%;
+    background-color: lightblue;
+    text-align: center;
+    padding: 5%;
+    border-radius: 5%;
+}
+#rating{
+    margin: 15%;
+    margin-top: 10%;
+    background-color: lightblue;
+    padding: 2%;
+    border-radius:5%;
+}
+.btn{
+    padding-top:1% ;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: auto; 
+    background-color: lightgreen;
+    border-radius:5%;
+}
+.btn:hover{
+    border-color: green;
+    background-color: white;
+}
+#result{
+    margin-left: 15%;
+
+}
+tr{
+    padding:20%;
+}
+th,td{
+    border: solid 1px yellow;
+    padding:auto; 
+    background-color: lightblue;
+  
+}
+h1{
+    color:black;
+    text-align: center;
+}
