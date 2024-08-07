@@ -1,6 +1,11 @@
 RatingApplication 
 
-Rating Application which developed to grade projects at AIT Project Expo oct-2023
+Rating Application which developed to grade projects at AIT Project Expo oct-2023. In which users can give some rating to each project presented in the expo.
+
+Tech Stack : HTML, CSS, Javascript , Django, SQLite Database
+
+
+
 
 
 
