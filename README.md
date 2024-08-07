@@ -11,3 +11,7 @@ Tech Stack : HTML, CSS, Django, SQLite Database
 
 Live link:
 https://projectrating.pythonanywhere.com/
+
+
+
+You can visit updated project link:https://projectrating3.pythonanywhere.com/ 
