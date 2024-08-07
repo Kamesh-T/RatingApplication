@@ -14,4 +14,4 @@ https://projectrating.pythonanywhere.com/
 
 
 
-You can visit updated project link:https://projectrating3.pythonanywhere.com/ 
+You can visit updated project link : https://projectrating3.pythonanywhere.com/ 
