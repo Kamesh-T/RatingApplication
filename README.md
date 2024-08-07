@@ -1,4 +1,4 @@
-RatingApplication 
+Rating Web Application 
 
 Rating Application which developed to grade projects at AIT Project Expo oct-2023. In which users can give some rating to each project presented in the expo.
 
